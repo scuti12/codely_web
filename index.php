@@ -114,7 +114,7 @@
               <h3>HTML & CSS</h3>
               <p>Hyper text markup language and Cascading style sheet </p>
             </figcaption>
-            <a href="#"></a>
+            <a href="/lessons/html_css.php"></a>
           </figure>
         </div>
         <div class="col-md-4 col-sm-6 padleft-right">
@@ -124,7 +124,7 @@
               <h3>Javascript</h3>
               <p>Frontend Programming language</p>
             </figcaption>
-            <a href="#"></a>
+            <a href="/lessons/js.php"></a>
           </figure>
         </div>
         <div class="col-md-4 col-sm-6 padleft-right">
@@ -134,7 +134,7 @@
               <h3>Bootstrap</h3>
               <p>Frontend Popular Framework</p>
             </figcaption>
-            <a href="#"></a>
+            <a href="/lessons/bootstrap.php"></a>
           </figure>
         </div>
         <div class="col-md-4 col-sm-6 padleft-right">
@@ -144,7 +144,7 @@
               <h3>C++</h3>
               <p>Programming language</p>
             </figcaption>
-            <a href="#"></a>
+            <a href="/lessons/cpp.php"></a>
           </figure>
         </div>
         <div class="col-md-4 col-sm-6 padleft-right">
@@ -154,7 +154,7 @@
               <h3>Java</h3>
               <p>Programming language</p>
             </figcaption>
-            <a href="#"></a>
+            <a href="/lessons/java.php"></a>
           </figure>
         </div>
         <div class="col-md-4 col-sm-6 padleft-right">
@@ -164,7 +164,7 @@
               <h3>Linux</h3>
               <p>Open source OS</p>
             </figcaption>
-            <a href="#"></a>
+            <a href="/lessons/linux.php"></a>
           </figure>
         </div>
         <div class="col-md-4 col-sm-6 padleft-right">
@@ -174,7 +174,7 @@
               <h3>Git</h3>
               <p>Version Control System</p>
             </figcaption>
-            <a href="#"></a>
+            <a href="/lessons/git.php"></a>
           </figure>
         </div>
         <div class="col-md-4 col-sm-6 padleft-right">
@@ -184,7 +184,7 @@
               <h3>PHP</h3>
               <p>Servers side Programming Language</p>
             </figcaption>
-            <a href="#"></a>
+            <a href="/lessons/php.php"></a>
           </figure>
         </div>
         <div class="col-md-4 col-sm-6 padleft-right">
@@ -194,7 +194,7 @@
               <h3>Mysql</h3>
               <p>Open-source relational database management system.</p>
             </figcaption>
-            <a href="#"></a>
+            <a href="/lessons/mysql.php"></a>
           </figure>
         </div>
         </div>
