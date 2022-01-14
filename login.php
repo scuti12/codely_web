@@ -12,7 +12,7 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT `password` FROM `user` WHERE `email`= '$email' ";
+$sql = "SELECT * FROM `user` WHERE `email`= '$email' ";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
@@ -22,7 +22,8 @@ if ($result->num_rows > 0) {
       if(isset($row['password'])){
         if($row['password']==$_POST['loginpsw']){
             $_SESSION['email']=$email;
-            header("location: index.php");
+            $_SESSION['username']=$row['username'];
+            header("location: logon.php");
         }
       }
   }
