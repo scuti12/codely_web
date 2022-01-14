@@ -22,7 +22,7 @@ session_start();
 
   <body>
 <?php include "navbar.php" ?>
-<h3 style="color:orange; text-align:center"> Үр дүн алга <h3>
+<h3 style="color:orange; text-align:center"> Үр дүн алга </h3>
     <br>
     <br>
     <br>
