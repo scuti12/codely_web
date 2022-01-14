@@ -107,6 +107,7 @@
     </div>
     <div class="container">
       <div class="row">
+        <h3 style="color:orange" > <?php echo($errorMSG)?></h3>
         <div class="col-md-4 col-sm-6 padleft-right">
           <figure class="imghvr-fold-up" style="margin: 10px;">
             <img src="img/html_css.png" class="img-responsive">
