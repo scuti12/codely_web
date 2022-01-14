@@ -57,7 +57,7 @@
                     </div>
                   </div>
                   <div class="col-xs-12">
-                    <button type="button" class="btn btn-green btn-block btn-flat" onclick="userlogin()">Нэвтрэх</button>
+                    <button type="submit" class="btn btn-green btn-block btn-flat">Нэвтрэх</button>
                   </div>
                 </div>
               </form>
