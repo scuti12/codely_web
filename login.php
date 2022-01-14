@@ -3,8 +3,8 @@ $servername = "localhost";
 $username = "root";
 $password = "011011";
 $dbname = "CODELY";
-print_r($_POST['loginid']);
 $email = $_POST['loginid'];
+print_r($_POST['loginid']);
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
