@@ -21,6 +21,8 @@ session_start();
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <body>
 <?php include "navbar.php" ?>
+<iframe src="https://player.vimeo.com/video/665952245?h=a862e31fae" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 <?php include "footer.php" ?>
+
 </body>
 </head>
