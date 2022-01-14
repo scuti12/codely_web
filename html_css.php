@@ -43,11 +43,7 @@ session_start();
                         <iframe src="https://player.vimeo.com/video/665952245?h=a862e31fae" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
                         </div>
                     </div>
-                    <div class="col-md-4 gallery-box wow fadeInDown">
-                        <div data-toggle="modal" data-target="#myModal">
-                        <iframe src="https://player.vimeo.com/video/665952245?h=a862e31fae" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-                        </div>
-                    </div>
+                   
                 </div>
                 <!-- Second row of images -->
                 <div class="row">
@@ -61,11 +57,7 @@ session_start();
                         <iframe src="https://player.vimeo.com/video/665952245?h=a862e31fae" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
                         </div>
                     </div>
-                    <div class="col-md-4 gallery-box wow fadeInUp">
-                        <div data-toggle="modal" data-target="#myModal">
-                        <iframe src="https://player.vimeo.com/video/665952245?h=a862e31fae" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-                        </div>
-                    </div>
+                  
                 </div>
             </div>
         </div>
