@@ -1,4 +1,5 @@
 <?php
+print_r($_POST);
 $servername = "localhost";
 $username = "root";
 $password = "011011";

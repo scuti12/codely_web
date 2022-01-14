@@ -33,7 +33,7 @@
           <div class="login-box-body">
             <p class="login-box-msg">Codely MN д тавтай морил</p>
             <div class="form-group">
-              <form name="" id="loginForm">
+              <form name="login" id="loginForm" action="login.php" method="POST" >
                 <div class="form-group has-feedback">
                   <!----- username -------------->
                   <input class="form-control" placeholder="Email address" id="loginid" type="text" autocomplete="off" />
