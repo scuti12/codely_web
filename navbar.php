@@ -14,7 +14,6 @@
           <li><a href=""></a></li>
           <li><a href="#courses">Курсууд</a></li>
           <li><a href="#" data-target="#login" data-toggle="modal">Нэвтрэх</a></li>
-          
         </ul>
       </div>
     </div>
