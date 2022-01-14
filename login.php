@@ -1,6 +1,6 @@
 <?php
 
-<?php
+
 $servername = "localhost";
 $username = "root";
 $password = "011011";
@@ -14,4 +14,3 @@ if ($conn->connect_error) {
 }
 echo "Connected successfully";
 ?> 
-?>
