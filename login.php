@@ -4,7 +4,6 @@ $username = "root";
 $password = "011011";
 $dbname = "CODELY";
 $email = $_POST['loginid'];
-echo($_POST['loginid']);
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
@@ -27,7 +26,7 @@ if ($result->num_rows > 0) {
       }
   }
 } else {
-  echo "Та админд хандана уу";
+    header("location: sorry.php");
 }
 $conn->close();
 ?> 
