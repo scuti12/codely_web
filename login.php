@@ -3,7 +3,7 @@ $servername = "localhost";
 $username = "root";
 $password = "011011";
 $dbname = "CODELY";
-$email = $_POST['loginid']
+$email = $_POST['loginid'];
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
