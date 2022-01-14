@@ -20,8 +20,10 @@ if ($result->num_rows > 0) {
   while($row = $result->fetch_assoc()) {
       print_r($row);
       if(isset($row['password'])){
-          $_SESSION['email'] = $email;
-          header("location: index.php");
+        if($row['password']==$_POST['loginpsw']){
+            $_SESSION['email']=$email;
+            header("location: index.php");
+        }
       }
   }
 } else {

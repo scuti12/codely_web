@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Mentor Education Bootstrap Theme</title>
+  <title>Codely MN</title>
   <meta name="description" content="Free Bootstrap Theme by BootstrapMade.com">
   <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
 
@@ -33,7 +33,7 @@
           <div class="login-box-body">
             <p class="login-box-msg">Codely MN д тавтай морил</p>
             <div class="form-group">
-              <form action="./login.php" method="POST" >
+              <form action="./login.php" method="POST">
                 <div class="form-group has-feedback">
                   <!----- username -------------->
                   <input class="form-control" placeholder="Email address" name="loginid" type="text" autocomplete="off" />
@@ -107,7 +107,6 @@
     </div>
     <div class="container">
       <div class="row">
-        <h3 style="color:orange" > <?php echo($errorMSG)?></h3>
         <div class="col-md-4 col-sm-6 padleft-right">
           <figure class="imghvr-fold-up" style="margin: 10px;">
             <img src="img/html_css.png" class="img-responsive">
