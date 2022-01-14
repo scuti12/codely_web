@@ -21,7 +21,56 @@ session_start();
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <body>
 <?php include "navbar.php" ?>
-<iframe src="https://player.vimeo.com/video/665952245?h=a862e31fae" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<div class="gallery-container section-container">
+    <div class="container">
+        <div class="row">
+            <div class="col gallery section-description wow fadeIn">
+                <h2>Gallery</h2>
+                <div class="divider-1 wow fadeInUp"><span></span></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <!-- First row of images -->
+                <div class="row">
+                    <div class="col-md-4 gallery-box wow fadeInDown">
+                        <div data-toggle="modal" data-target="#myModal">
+                        <iframe src="https://player.vimeo.com/video/665952245?h=a862e31fae" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-md-4 gallery-box wow fadeInUp">
+                        <div data-toggle="modal" data-target="#myModal">
+                        <iframe src="https://player.vimeo.com/video/665952245?h=a862e31fae" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-md-4 gallery-box wow fadeInDown">
+                        <div data-toggle="modal" data-target="#myModal">
+                        <iframe src="https://player.vimeo.com/video/665952245?h=a862e31fae" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                <!-- Second row of images -->
+                <div class="row">
+                    <div class="col-md-4 gallery-box wow fadeInUp">
+                        <div data-toggle="modal" data-target="#myModal">
+                        <iframe src="https://player.vimeo.com/video/665952245?h=a862e31fae" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-md-4 gallery-box wow fadeInDown">
+                        <div data-toggle="modal" data-target="#myModal">
+                        <iframe src="https://player.vimeo.com/video/665952245?h=a862e31fae" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-md-4 gallery-box wow fadeInUp">
+                        <div data-toggle="modal" data-target="#myModal">
+                        <iframe src="https://player.vimeo.com/video/665952245?h=a862e31fae" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <?php include "footer.php" ?>
 
 </body>
