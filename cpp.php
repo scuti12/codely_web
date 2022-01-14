@@ -1,5 +1,5 @@
 <?php 
-    if(!isset($_SESSION['email'])){
+    if($_SESSION['email']==null){
         header("location: sorry.php");
     }
  ?>

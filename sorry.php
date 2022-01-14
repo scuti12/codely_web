@@ -107,7 +107,7 @@
     </div>
     <div class="container">
       <div class="row">
-        <h3 style="color:orange" > Та нэвтрэх эрхээрээ нэвтэрч орно уу!</h3>
+        <h3 style="color:orange, text-align:center" > Та нэвтрэх эрхээрээ нэвтэрч орно уу!</h3>
         <div class="col-md-4 col-sm-6 padleft-right">
           <figure class="imghvr-fold-up" style="margin: 10px;">
             <img src="img/html_css.png" class="img-responsive">
