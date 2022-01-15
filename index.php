@@ -81,7 +81,7 @@
             <div class="intro-para text-center quote">
               <p class="big-text">Learning Today . . . Leading Tomorrow.</p>
               <p class="small-text">Энэхүү вебсайт нь зөвхөн бүртгэлтэй хэрэглэгчдэд дэмжлэг үзүүлэх юм</p>
-              <a href="#footer" class="btn get-quote">Холбохдох</a>
+              <a href="#footer" class="btn get-quote">Холбогдох</a>
             </div>
             <a href="#feature" class="mouse-hover">
               <div class="mouse"></div>
