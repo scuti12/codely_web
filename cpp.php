@@ -18,13 +18,18 @@ session_start();
   <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/imagehover.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src ="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src ="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  
   <body>
 <?php include "navbar_logged.php" ?>
     <br>
     <br>
     <br>
     <br>
+    <div class="container">
     <div class="row">
             <div class="col-3">
             <nav class ="navbar bg-dark">
