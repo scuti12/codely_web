@@ -28,12 +28,9 @@
                       echo(strtoupper($_SESSION['username']));
                     } 
           ?></a></li>
-          <?php 
-                    if($_SESSION['username']==""){
-                      echo"<li><a href="logout.php">ГАРАХ</a></li>";
-                    }?>
-
-          
+          <li><a href="logout.php"><?if($_SESSION['username']==""){
+                      echo"ГАРАХ";
+                    }?></a></li>
         </ul>
       </div>
     </div>
