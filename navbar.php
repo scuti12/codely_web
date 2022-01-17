@@ -12,7 +12,7 @@
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
           <li><a href=""></a></li>
-          <li><a href="#courses">Курсууд</a></li>
+          <li><a href="#courses">КУРСУУД</a></li>
           <li><a href="#" data-target="#login" data-toggle="<?php session_start(); 
            if($_SESSION['username']==""){
             echo"modal";
