@@ -1,4 +1,6 @@
-<? $_SESSION['email']="";
+<?
+session_start();
+$_SESSION['email']="";
 $_SESSION['username']=""; ?>
 <!DOCTYPE html>
 <html lang="en">
