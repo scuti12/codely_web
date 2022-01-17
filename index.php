@@ -17,7 +17,14 @@
 </head>
 
 <body>
-  <?php include "navbar.php" ?>
+  <?php session_start();
+    if(isset($_SESSION['email'])){
+      include "navbar_logged.php";
+    }
+    else{
+      include "navbar.php";
+    }
+  ?>
   <!--Modal box-->
   <div class="modal fade" id="login" role="dialog">
     <div class="modal-dialog modal-sm">
