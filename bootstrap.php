@@ -20,7 +20,7 @@
   <link rel="stylesheet" type="text/css" href="css/imagehover.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
 <body>
-<?php include "navbar.php" ?>
+<?php include "navbar_logged.php" ?>
 <h3 style="color:orange; text-align:center"> Үр дүн алга </h3>
     <br>
     <br>
