@@ -25,6 +25,7 @@ session_start();
     <br>
     <br>
     <br>
+    <div class="container">
     <div class="row">
 <div class="col-3">
 <nav class ="navbar bg-dark">
@@ -50,6 +51,7 @@ The Web Content in detail.
 </div>
 <div class =”container”>
 <p> The vertical menu can place the left or right side of the web pages. <br> But the default vertical menu placed on the left side. </P>
+</div>
 </div>
 </div>
 </div>
