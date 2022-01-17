@@ -1,5 +1,5 @@
 <?
-session_abort();
+session_destroy();
 $_SESSION['email']="";
 $_SESSION['username']=""; ?>
 <!DOCTYPE html>
