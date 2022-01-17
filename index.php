@@ -18,7 +18,7 @@
 
 <body>
   <?php session_start();
-    if(isset($_SESSION['email'])){
+    if($_SESSION['email']!=""){
       include "navbar_logged.php";
     }
     else{
