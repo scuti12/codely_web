@@ -13,7 +13,7 @@
         <ul class="nav navbar-nav navbar-right">
           <li><a href=""></a></li>
           <li><a href="index.php">Курсууд</a></li>
-          <li><a href="#" data-target="" ><?php session_start(); echo($_SESSION['username']) ?></a></li>
+          <li><?php session_start(); echo($_SESSION['username']) ?></li>
         </ul>
       </div>
       </div>
