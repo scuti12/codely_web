@@ -18,47 +18,18 @@ session_start();
   <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/imagehover.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-  <script src ="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <script src ="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  
   <body>
-<?php include "navbar_logged.php" ?>
+<?php include "navbar.php" ?>
+<iframe src="https://player.vimeo.com/video/666458985?h=3b6a6dc5da" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    <iframe src="https://player.vimeo.com/video/666458822?h=3af095bd2e" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        <iframe src="https://player.vimeo.com/video/666458868?h=e2d094859e" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/666458920?h=833f10826e" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
     <br>
     <br>
     <br>
     <br>
-    <div class="container">
-    <div class="row">
-            <div class="col-3">
-            <nav class ="navbar bg-dark">
-            <ul class ="nav navbar-nav">
-            <li class ="nav-item">
-            <a class ="nav-link" href="#"> Home </a>
-            </li>
-            <li class ="nav-item">
-            <a class ="nav-link" href="#"> Services </a>
-            </li>
-            <li class ="nav-item">
-            <a class ="nav-link" href="#"> Contact </a>
-            </li>
-            <li class ="nav-item">
-            <a class ="nav-link" href="#"> Blogs </a>
-            </li>
-            </ul>
-            </nav>
-            </div>
-            <div class="col-9">
-            <div class="container">
-            The Web Content in detail.
-            </div>
-            <div class =”container”>
-            <p> The vertical menu can place the left or right side of the web pages. <br> But the default vertical menu placed on the left side. </P>
-            </div>
-            </div>
-            </div>
-            </div>
+    <br>
     <br>
     <br>
     <br>
