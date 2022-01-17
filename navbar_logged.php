@@ -12,8 +12,9 @@
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
           <li><a href=""></a></li>
-          <li><a href="index.php">Курсууд</a></li>
-          <li><a href="#" data-target="" ><?php session_start(); echo($_SESSION['username']) ?></a></li>
+          <li><a href="index.php">КУРСУУД</a></li>
+          <li><a href="#" data-target="" ><?php session_start(); echo(strtoupper($_SESSION['username'])) ?></a></li>
+          <li><a href="logout.php">ГАРАХ</a></li>
         </ul>
       </div>
       </div>

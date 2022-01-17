@@ -22,10 +22,10 @@
           } 
           ?>"><?php 
                     if($_SESSION['username']==""){
-                      echo"Нэвтрэх";
+                      echo"НЭВТРЭХ";
                     }
                     else{
-                      echo($_SESSION['username']);
+                      echo(strtoupper($_SESSION['username']));
                     } 
           ?></a></li>
         </ul>
