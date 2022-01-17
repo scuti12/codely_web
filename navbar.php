@@ -13,7 +13,14 @@
         <ul class="nav navbar-nav navbar-right">
           <li><a href=""></a></li>
           <li><a href="#courses">Курсууд</a></li>
-          <li><a href="#" data-target="#login" data-toggle="modal">Нэвтрэх</a></li>
+          <li><a href="#" data-target="#login" data-toggle="modal"><?php session_start(); 
+          if($_SESSION['username']==""){
+            echo"Нэвтрэх";
+                    }
+                    else{
+                      echo($_SESSION['username']);
+                    } 
+          ?></a></li>
         </ul>
       </div>
     </div>
