@@ -28,7 +28,7 @@
                       echo(strtoupper($_SESSION['username']));
                     } 
           ?></a></li>
-          <li><a href="logout.php"><?if($_SESSION['username']==""){
+          <li><a href="logout.php"><?if($_SESSION['username']!=""){
                       echo"ГАРАХ";
                     }?></a></li>
         </ul>
