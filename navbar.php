@@ -29,7 +29,7 @@
                     } 
           ?></a></li>
           <li><a href="logout.php"><? session_start();
-          if($_SESSION['username']!=""){
+          if(isset($_SESSION['username'])){
                       echo"ГАРАХ";
                     }?></a></li>
         </ul>
