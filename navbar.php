@@ -30,7 +30,7 @@
           ?></a></li>
           <li><a href="logout.php"><? session_start();
           if(isset($_SESSION['username'])){
-                      echo"ГАРАХ";
+                      echo("ГАРАХ");
                     }?></a></li>
         </ul>
       </div>
