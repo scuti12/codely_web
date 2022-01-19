@@ -21,9 +21,9 @@ session_start();
         // output data of each row
         while($row = $result->fetch_assoc()) {
             $link = $row['link'];
+            $title = $row['title'];
         }
     }
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -42,36 +42,41 @@ session_start();
   <link rel="stylesheet" type="text/css" href="css/style_nav.css">
   <body>
 <?php include "navbar_logged.php" ?>
-<!-- <iframe src="https://player.vimeo.com/video/666458985?h=3b6a6dc5da" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-<iframe src="https://player.vimeo.com/video/666458822?h=3af095bd2e" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-<iframe src="https://player.vimeo.com/video/666458868?h=e2d094859e" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-<iframe src="https://player.vimeo.com/video/666458920?h=833f10826e" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe> -->
-<div class="col-md-4">
+
+<div class="col-md-3">
 <nav class="menu">
   <ol class='menu__content'>
-    <li class="menu-item"><a href="?id=1">C++ syntax</a></li>
-    <li class="menu-item"><a href="?id=2">C++</a></li>
+    <li class="menu-item"><a href="?id=1">Синтакс</a></li>
+    <li class="menu-item"><a href="?id=2">Тэмдэгт мөр</a></li>
+    <li class="menu-item"><a href="?id=4">Өгөгдлийн төрөл</a></li>
+    <li class="menu-item"><a href="?id=3">Оператор болон операнд</a></li>
     <li class="menu-item">
-      <a href="#0">Widgets</a>
+      <a href="#0">Математик үйлдэл болон функц</a>
       <ol class="sub-menu">
-        <li class="menu-item"><a href="#0">Big Widgets</a></li>
-        <li class="menu-item"><a href="#0">Bigger Widgets</a></li>
-        <li class="menu-item"><a href="#0">Huge Widgets</a></li>
+        <li class="menu-item"><a href="#0">sqrt функц</a></li>
+        <li class="menu-item"><a href="#0">round функц</a></li>
+        <li class="menu-item"><a href="#0">log функц</a></li>
+        <li class="menu-item"><a href="#0">pow функц</a></li>
       </ol>
     </li>
-    <li class="menu-item">
-      <a href="#0">Kabobs</a>
+    <li class="menu-item"><a href="#0">Booleans</a></li>
+    <li class="menu-item"><a href="#0">Нөхцөл шалгалт</a>
       <ol class="sub-menu">
-        <li class="menu-item"><a href="#0">Shishkabobs</a></li>
-        <li class="menu-item"><a href="#0">BBQ kabobs</a></li>
-        <li class="menu-item"><a href="#0">Summer kabobs</a></li>
+        <li class="menu-item"><a href="#0">if нөхцөл шалгах</a></li>
+        <li class="menu-item"><a href="#0">else if нөхцөл шалгах</a></li>
+        <li class="menu-item"><a href="#0">Гурвалсан оператор</a></li>
       </ol>
     </li>
-    <li class="menu-item"><a href="#0">Contact</a></li>
+    <li class="menu-item"><a href="#0">Switch statement</a>
+       <ol class="sub-menu">
+        <li class="menu-item"><a href="#0">Break болон Continue</a></li>
+      </ol>      
+      </li>
   </ol>
 </nav>
 </div>
-<div class="col-md-8">
+<div class="col-md-9">
+    <h3 style="color:green"><? echo($title);?></h3>
 <div style="padding:56.16% 0 0 0;position:relative;"><iframe src="<?php echo($link); ?>" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="syntax"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 </div>
 
