@@ -43,7 +43,7 @@ session_start();
   <body>
 <?php include "navbar_logged.php" ?>
 
-<div class="col-md-3 lefti"style="overflow-y:scroll; overflow-x:hidden; height:100%;" >
+<div class="col-md-3 left" style="overflow-y:scroll; overflow-x:hidden; height:100%;" >
 <nav class="menu">
   <ol class='menu__content'>
     <li class="menu-item"><a href="?id=1">Синтакс</a></li>
@@ -72,44 +72,6 @@ session_start();
         <li class="menu-item"><a href="#0">Break болон Continue</a></li>
       </ol>      
       </li>
-      <style>
-          .lefti {
-    
-               
-                overflow: auto;
-                scroll-behavior: smooth;
-
-            }
-          </style>
-      
-      
-       <li class="menu-item"><a href="?id=1">Синтакс</a></li>
-    <li class="menu-item"><a href="?id=2">Тэмдэгт мөр</a></li>
-    <li class="menu-item"><a href="?id=4">Өгөгдлийн төрөл</a></li>
-    <li class="menu-item"><a href="?id=3">Оператор болон операнд</a></li>
-    <li class="menu-item">
-      <a href="#0">Математик үйлдэл болон функц</a>
-      <ol class="sub-menu">
-        <li class="menu-item"><a href="#0">sqrt функц</a></li>
-        <li class="menu-item"><a href="#0">round функц</a></li>
-        <li class="menu-item"><a href="#0">log функц</a></li>
-        <li class="menu-item"><a href="#0">pow функц</a></li>
-      </ol>
-    </li>
-    <li class="menu-item"><a href="#0">Booleans</a></li>
-    <li class="menu-item"><a href="#0">Нөхцөл шалгалт</a>
-      <ol class="sub-menu">
-        <li class="menu-item"><a href="#0">if нөхцөл шалгах</a></li>
-        <li class="menu-item"><a href="#0">else if нөхцөл шалгах</a></li>
-        <li class="menu-item"><a href="#0">Гурвалсан оператор</a></li>
-      </ol>
-    </li>
-    <li class="menu-item"><a href="#0">Switch statement</a>
-       <ol class="sub-menu">
-        <li class="menu-item"><a href="#0">Break болон Continue</a></li>
-      </ol>      
-      </li>
-      
   </ol>
 </nav>
 </div>
