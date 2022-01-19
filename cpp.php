@@ -20,7 +20,7 @@ session_start();
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/style_nav.css">
   <body>
-<!-- <?php include "navbar_logged.php" ?> -->
+<?php include "navbar_logged.php" ?>
 <!-- <iframe src="https://player.vimeo.com/video/666458985?h=3b6a6dc5da" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 <iframe src="https://player.vimeo.com/video/666458822?h=3af095bd2e" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 <iframe src="https://player.vimeo.com/video/666458868?h=e2d094859e" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
@@ -32,15 +32,6 @@ session_start();
     <br>
     <br>
     <nav class="menu">
-  <input id ="menu__toggle" type="checkbox" class='menu__toggle'/>
-  <label for="menu__toggle" class="menu__toggle-label">
-    <svg preserveAspectRatio='xMinYMin' viewBox='0 0 24 24'>
-      <path d='M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z' />
-    </svg>
-    <svg preserveAspectRatio='xMinYMin' viewBox='0 0 24 24'>
-      <path d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" />
-    </svg>
-  </label>
   <ol class='menu__content'>
     <li class="menu-item"><a href="#0">Home</a></li>
     <li class="menu-item"><a href="#0">About</a></li>
