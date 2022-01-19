@@ -55,6 +55,7 @@ session_start();
 <div class="col-md-8">
 <div style="padding:56.16% 0 0 0;position:relative;"><iframe src="
 <?php 
+    print_r($_GET['id']);
     // $servername = "localhost";
     // $username = "root";
     // $password = "011011";
