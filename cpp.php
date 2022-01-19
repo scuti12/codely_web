@@ -53,8 +53,8 @@ session_start();
 </nav>
 </div>
 <div class="col-md-8">
-<div style="padding:56.16% 0 0 0;position:relative;"><iframe src="<?php 
-if(isset($_GET['id'])){
+<div style="padding:56.16% 0 0 0;position:relative;"><iframe src="
+<?php 
     $servername = "localhost";
     $username = "root";
     $password = "011011";
@@ -66,16 +66,13 @@ if(isset($_GET['id'])){
     if ($conn->connect_error) {
       die("Connection failed: " . $conn->connect_error);
     }
-    
     $sql = "SELECT * FROM `video` WHERE `id`= '$id' ";
     $result = $conn->query($sql);
     if ($result->num_rows > 0) {
         // output data of each row
-        while($row = $result->fetch_assoc()) {
-            if(isset($row['link'])){
-              echo($row['link']);
-            }
-        }
+    $row = $result->fetch_assoc()) 
+    if(isset($row['link'])){
+    echo($row['link']);}
     }
 ?>" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="syntax"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 </div>
