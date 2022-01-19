@@ -52,7 +52,7 @@ session_start();
   </ol>
 </nav>
 </div>
-<div class="col-md-8" style="padding-left:20px">
+<div class="col-md-8">
 <div style="padding:56.16% 0 0 0;position:relative;"><iframe src="
 <?php  
 if(isset($_GET['id'])){
