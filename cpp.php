@@ -20,7 +20,7 @@ session_start();
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/style_nav.css">
   <body>
-<?php include "navbar_logged.php" ?>
+<!-- <?php include "navbar_logged.php" ?> -->
 <!-- <iframe src="https://player.vimeo.com/video/666458985?h=3b6a6dc5da" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 <iframe src="https://player.vimeo.com/video/666458822?h=3af095bd2e" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 <iframe src="https://player.vimeo.com/video/666458868?h=e2d094859e" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
