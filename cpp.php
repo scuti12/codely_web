@@ -72,7 +72,7 @@ if(isset($_GET['id'])){
     $result = $conn->query($sql);
     if(isset($result){
         echo($result['link']);
-    })
+    }
 }?>" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="syntax"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 </div>
     <br>
