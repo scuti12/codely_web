@@ -53,12 +53,12 @@ session_start();
 </nav>
 </div>
 <div class="col-md-8">
-<iframe src="<?php  
+<div style="padding:56.16% 0 0 0;position:relative;"><iframe src="  <?php  
 if($_GET['id']==1){
-    echo"https://player.vimeo.com/video/666458985?h=3b6a6dc5da";
+    echo"https://player.vimeo.com/video/666458985?h=3b6a6dc5da&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479";
 }
 
-?>" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+?>" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="syntax"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 </div>
     <br>
     <br>
@@ -92,6 +92,7 @@ if($_GET['id']==1){
     <br>
     <br>
     <br>
+  
 <?php include "footer.php" ?>
 </body>
 </head>
