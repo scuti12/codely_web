@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default navbar-fixed-top">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
       <div class="row">
       <div class="navbar-header">
