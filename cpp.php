@@ -53,12 +53,12 @@ session_start();
 </nav>
 </div>
 <div class="col-8">
-<?php 
+<iframe src="<?php  
 if($_GET['id']==1){
-    echo"<iframe src="https://player.vimeo.com/video/666458985?h=3b6a6dc5da" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>";
+    echo"https://player.vimeo.com/video/666458985?h=3b6a6dc5da";
 }
 
-?>
+?>" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </div>
     <br>
     <br>
