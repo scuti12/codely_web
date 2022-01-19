@@ -30,8 +30,8 @@ session_start();
 <div class="col-4">
 <nav class="menu">
   <ol class='menu__content'>
-    <li class="menu-item"><a href="?id=1">Home</a></li>
-    <li class="menu-item"><a href="#0">About</a></li>
+    <li class="menu-item"><a href="cpp.php?id=1">C++ syntax</a></li>
+    <li class="menu-item"><a href="cpp.php?id=2">C++</a></li>
     <li class="menu-item">
       <a href="#0">Widgets</a>
       <ol class="sub-menu">
