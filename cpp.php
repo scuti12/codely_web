@@ -27,7 +27,7 @@ session_start();
 <iframe src="https://player.vimeo.com/video/666458920?h=833f10826e" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe> -->
     
 
-<div class="col-4">
+<div class="col-md-4">
 <nav class="menu">
   <ol class='menu__content'>
     <li class="menu-item"><a href="?id=1">C++ syntax</a></li>
@@ -52,7 +52,7 @@ session_start();
   </ol>
 </nav>
 </div>
-<div class="col-8">
+<div class="col-md-8">
 <iframe src="<?php  
 if($_GET['id']==1){
     echo"https://player.vimeo.com/video/666458985?h=3b6a6dc5da";
