@@ -54,26 +54,29 @@ session_start();
 </div>
 <div class="col-md-8">
 <div style="padding:56.16% 0 0 0;position:relative;"><iframe src="<?php 
-print_r($_GET['id']);
-// if(isset($_GET['id'])){
-//     $servername = "localhost";
-//     $username = "root";
-//     $password = "011011";
-//     $dbname = "CODELY";
-//     $id= $_GET['id'];
-//     // Create connection
-//     $conn = new mysqli($servername, $username, $password, $dbname);
-//     // Check connection
-//     if ($conn->connect_error) {
-//       die("Connection failed: " . $conn->connect_error);
-//     }
+if(isset($_GET['id'])){
+    $servername = "localhost";
+    $username = "root";
+    $password = "011011";
+    $dbname = "CODELY";
+    $id= $_GET['id'];
+    // Create connection
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    // Check connection
+    if ($conn->connect_error) {
+      die("Connection failed: " . $conn->connect_error);
+    }
     
-//     $sql = "SELECT * FROM `video` WHERE `id`= '$id' ";
-//     $result = $conn->query($sql);
-//     if(isset($result){
-//         echo($result['link']);
-//     }
-// }
+    $sql = "SELECT * FROM `video` WHERE `id`= '$id' ";
+    $result = $conn->query($sql);
+    if ($result->num_rows > 0) {
+        // output data of each row
+        while($row = $result->fetch_assoc()) {
+            if(isset($row['link'])){
+              echo(row['link']);
+            }
+        }
+    }
 ?>" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="syntax"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 </div>
     <br>
