@@ -58,7 +58,7 @@ if($_GET['id']==1){
     echo"https://player.vimeo.com/video/666458985?h=3b6a6dc5da";
 }
 
-?>" width="80%" height="100%" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+?>" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </div>
     <br>
     <br>
