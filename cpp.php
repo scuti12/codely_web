@@ -52,13 +52,27 @@ session_start();
   </ol>
 </nav>
 </div>
-<div class="col-md-8">
-<div style="padding:56.16% 0 0 0;position:relative;"><iframe src="  <?php  
+<div class="col-md-8" style="padding-left:20px">
+<div style="padding:56.16% 0 0 0;position:relative;"><iframe src="<?php  
 if($_GET['id']==1){
-    echo"https://player.vimeo.com/video/666458985?h=3b6a6dc5da&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479";
-}
-
-?>" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="syntax"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+    $servername = "localhost";
+    $username = "root";
+    $password = "011011";
+    $dbname = "CODELY";
+    $id= $_GET['id'];
+    // Create connection
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    // Check connection
+    if ($conn->connect_error) {
+      die("Connection failed: " . $conn->connect_error);
+    }
+    
+    $sql = "SELECT * FROM `video` WHERE `id`= '$id' ";
+    $result = $conn->query($sql);
+    if(isset($result){
+        echo($result['link']);
+    })
+}?>" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="syntax"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 </div>
     <br>
     <br>
