@@ -43,7 +43,7 @@ session_start();
   <body>
 <?php include "navbar_logged.php" ?>
 
-<div class="col-md-3"style="overflow-y:scroll; overflow-x:hidden; height:100%;" >
+<div class="col-md-3 lefti"style="overflow-y:scroll; overflow-x:hidden; height:100%;" >
 <nav class="menu">
   <ol class='menu__content'>
     <li class="menu-item"><a href="?id=1">Синтакс</a></li>
@@ -72,7 +72,15 @@ session_start();
         <li class="menu-item"><a href="#0">Break болон Continue</a></li>
       </ol>      
       </li>
-      
+      <style>
+          .lefti {
+    
+               
+                overflow: auto;
+                scroll-behavior: smooth;
+
+            }
+          </style>
       
       
        <li class="menu-item"><a href="?id=1">Синтакс</a></li>
