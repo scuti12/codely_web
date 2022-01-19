@@ -43,7 +43,7 @@ session_start();
   <body>
 <?php include "navbar_logged.php" ?>
 
-<div class="col-md-3">
+<div class="col-md-3"style="overflow-y:scroll; overflow-x:hidden; height:400px;" >
 <nav class="menu">
   <ol class='menu__content'>
     <li class="menu-item"><a href="?id=1">Синтакс</a></li>
