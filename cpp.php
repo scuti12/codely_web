@@ -73,7 +73,7 @@ if(isset($_GET['id'])){
         // output data of each row
         while($row = $result->fetch_assoc()) {
             if(isset($row['link'])){
-              echo(row['link']);
+              echo($row['link']);
             }
         }
     }
