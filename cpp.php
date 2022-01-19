@@ -3,7 +3,28 @@ session_start();
     if($_SESSION['email']==null){
         header("location: sorry.php");
     }
- ?>
+    $servername = "localhost";
+    $username = "root";
+    $password = "011011";
+    $dbname = "CODELY";
+    if(isset($_GET['id'])){
+        $id=$_GET['id'];
+    }
+     $conn = new mysqli($servername, $username, $password, $dbname);
+    // Check connection
+    if ($conn->connect_error) {
+      die("Connection failed: " . $conn->connect_error);
+    }
+      $sql = "SELECT * FROM `video` WHERE `id`='$id' ";
+    $result = $conn->query($sql);
+    if ($result->num_rows > 0) {
+        // output data of each row
+        while($row = $result->fetch_assoc()) {
+            $link = $row['link'];
+        }
+    }
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -25,27 +46,6 @@ session_start();
 <iframe src="https://player.vimeo.com/video/666458822?h=3af095bd2e" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 <iframe src="https://player.vimeo.com/video/666458868?h=e2d094859e" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 <iframe src="https://player.vimeo.com/video/666458920?h=833f10826e" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe> -->
-    
-<?php  
-    $servername = "localhost";
-    $username = "root";
-    $password = "011011";
-    $dbname = "CODELY";
-     $conn = new mysqli($servername, $username, $password, $dbname);
-    // Check connection
-    if ($conn->connect_error) {
-      die("Connection failed: " . $conn->connect_error);
-    }
-      $sql = "SELECT * FROM `video` ";
-    $result = $conn->query($sql);
-    if ($result->num_rows > 0) {
-        // output data of each row
-        while($row = $result->fetch_assoc()) {
-            print_r($row);
-        }
-    }
-      
-      ?>
 <div class="col-md-4">
 <nav class="menu">
   <ol class='menu__content'>
@@ -71,7 +71,9 @@ session_start();
   </ol>
 </nav>
 </div>
-
+<div class="col-md-8">
+<div style="padding:56.16% 0 0 0;position:relative;"><iframe src="<?php echo($link); ?>" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="syntax"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+</div>
 
     <br>
     <br>
