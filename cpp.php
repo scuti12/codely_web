@@ -26,7 +26,8 @@ session_start();
 <iframe src="https://player.vimeo.com/video/666458868?h=e2d094859e" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 <iframe src="https://player.vimeo.com/video/666458920?h=833f10826e" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe> -->
     
-   <div class="col-4">
+  <div class="row">
+  <div class="col-4">
    <nav class="menu">
   <ol class='menu__content'>
     <li class="menu-item"><a href="#0">Home</a></li>
@@ -53,6 +54,34 @@ session_start();
 </div>
 <div class="col-8">
 <iframe src="https://player.vimeo.com/video/666458985?h=3b6a6dc5da" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+</div> <div class="col-4">
+   <nav class="menu">
+  <ol class='menu__content'>
+    <li class="menu-item"><a href="#0">Home</a></li>
+    <li class="menu-item"><a href="#0">About</a></li>
+    <li class="menu-item">
+      <a href="#0">Widgets</a>
+      <ol class="sub-menu">
+        <li class="menu-item"><a href="#0">Big Widgets</a></li>
+        <li class="menu-item"><a href="#0">Bigger Widgets</a></li>
+        <li class="menu-item"><a href="#0">Huge Widgets</a></li>
+      </ol>
+    </li>
+    <li class="menu-item">
+      <a href="#0">Kabobs</a>
+      <ol class="sub-menu">
+        <li class="menu-item"><a href="#0">Shishkabobs</a></li>
+        <li class="menu-item"><a href="#0">BBQ kabobs</a></li>
+        <li class="menu-item"><a href="#0">Summer kabobs</a></li>
+      </ol>
+    </li>
+    <li class="menu-item"><a href="#0">Contact</a></li>
+  </ol>
+</nav>
+</div>
+<div class="col-8">
+<iframe src="https://player.vimeo.com/video/666458985?h=3b6a6dc5da" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+</div>
 </div>
 <br>
     <br>
