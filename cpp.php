@@ -30,7 +30,7 @@ session_start();
 <div class="col-4">
 <nav class="menu">
   <ol class='menu__content'>
-    <li class="menu-item"><a href="#0">Home</a></li>
+    <li class="menu-item"><a href="?id=1">Home</a></li>
     <li class="menu-item"><a href="#0">About</a></li>
     <li class="menu-item">
       <a href="#0">Widgets</a>
@@ -53,7 +53,12 @@ session_start();
 </nav>
 </div>
 <div class="col-8">
-<iframe src="https://player.vimeo.com/video/666458985?h=3b6a6dc5da" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<?php 
+if($_GET['id']==1){
+    echo"<iframe src="https://player.vimeo.com/video/666458985?h=3b6a6dc5da" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>";
+}
+
+?>
 </div>
     <br>
     <br>
