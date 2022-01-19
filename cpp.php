@@ -26,7 +26,28 @@ session_start();
 <iframe src="https://player.vimeo.com/video/666458868?h=e2d094859e" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 <iframe src="https://player.vimeo.com/video/666458920?h=833f10826e" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe> -->
     
-  <div class="row">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <div class="row">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.php"><span>CodeLy</span></a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href=""></a></li>
+          <li><a href="index.php">КУРСУУД</a></li>
+          <li><a href="#" data-target="" ><?php session_start(); echo(strtoupper($_SESSION['username'])) ?></a></li>
+          <li><a href="logout.php">ГАРАХ</a></li>
+        </ul>
+      </div>
+      </div>
+    </div>
+  </nav>
   <div class="col-4">
    <nav class="menu">
   <ol class='menu__content'>
@@ -81,7 +102,6 @@ session_start();
 </div>
 <div class="col-8">
 <iframe src="https://player.vimeo.com/video/666458985?h=3b6a6dc5da" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-</div>
 </div>
 <br>
     <br>
