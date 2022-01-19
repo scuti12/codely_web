@@ -76,6 +76,22 @@ if($_GET['id']==1){
     <br>
     <br>
     <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 <?php include "footer.php" ?>
 </body>
 </head>
