@@ -26,7 +26,8 @@ session_start();
 <iframe src="https://player.vimeo.com/video/666458868?h=e2d094859e" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 <iframe src="https://player.vimeo.com/video/666458920?h=833f10826e" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe> -->
     
-    <nav class="menu">
+   <div class="col-4">
+   <nav class="menu">
   <ol class='menu__content'>
     <li class="menu-item"><a href="#0">Home</a></li>
     <li class="menu-item"><a href="#0">About</a></li>
@@ -49,6 +50,7 @@ session_start();
     <li class="menu-item"><a href="#0">Contact</a></li>
   </ol>
 </nav>
+</div>
 <br>
     <br>
     <br>
