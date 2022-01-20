@@ -47,8 +47,8 @@ session_start();
 <nav class="menu">
   <ol class='menu__content'>
     <li class="menu-item"><a href="?id=1">Синтакс</a></li>
-    <li class="menu-item"><a href="?id=2">Тэмдэгт мөр</a></li>
     <li class="menu-item"><a href="?id=4">Өгөгдлийн төрөл</a></li>
+    <li class="menu-item"><a href="?id=2">Тэмдэгт мөр</a></li>
     <li class="menu-item"><a href="?id=3">Оператор болон операнд</a></li>
     <li class="menu-item">
       <a href="#0">Математик үйлдэл болон функц</a>
