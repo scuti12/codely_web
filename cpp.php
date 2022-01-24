@@ -46,32 +46,54 @@ session_start();
 <div class="col-md-3 left" style="overflow-y:scroll; overflow-x:hidden; height:100%;" >
 <nav class="menu">
   <ol class='menu__content'>
-    <li class="menu-item"><a href="?id=1">Синтакс</a></li>
-    <li class="menu-item"><a href="?id=4">Өгөгдлийн төрөл</a></li>
-    <li class="menu-item"><a href="?id=2">Тэмдэгт мөр</a></li>
-    <li class="menu-item"><a href="?id=3">Оператор болон операнд</a></li>
-    <li class="menu-item">
-      <a href="#0">Математик үйлдэл болон функц</a>
+    <li class="menu-item"><a href="?id=1">BASIC CONCEPTS</a>
       <ol class="sub-menu">
-        <li class="menu-item"><a href="#0">sqrt функц</a></li>
-        <li class="menu-item"><a href="#0">round функц</a></li>
-        <li class="menu-item"><a href="#0">log функц</a></li>
-        <li class="menu-item"><a href="#0">pow функц</a></li>
+      <li class="menu-item"><a href="?id=1">Syntax</a></li>
+      <li class="menu-item"><a href="?id=4">Variable and Data type</a></li>
+      <li class="menu-item"><a href="?id=3">auto keyword</a></li>
+      <li class="menu-item"><a href="?id=2">Input Output</a></li>
+      <li class="menu-item"><a href="?id=3">Operator and Operand</a></li>
+      <li class="menu-item"><a href="?id=3">Operator Precedence</a></li>
+      <li class="menu-item"><a href="?id=3">Assignment and Increment Operators</a></li>
+      <li class="menu-item"><a href="?id=3">Example</a></li>
       </ol>
     </li>
-    <li class="menu-item"><a href="#0">Booleans</a></li>
-    <li class="menu-item"><a href="#0">Нөхцөл шалгалт</a>
+    <li class="menu-item"><a href="?id=1">CONDITIONAL AND LOOPS</a>
       <ol class="sub-menu">
-        <li class="menu-item"><a href="#0">if нөхцөл шалгах</a></li>
-        <li class="menu-item"><a href="#0">else if нөхцөл шалгах</a></li>
-        <li class="menu-item"><a href="#0">Гурвалсан оператор</a></li>
+      <li class="menu-item"><a href="?id=1">if | else |  else if statement</a></li>
+      <li class="menu-item"><a href="?id=4">While loop</a></li>
+      <li class="menu-item"><a href="?id=3">For loop</a></li>
+      <li class="menu-item"><a href="?id=2">Do while loop</a></li>
+      <li class="menu-item"><a href="?id=3">Switch statement</a></li>
+      <li class="menu-item"><a href="?id=3">Logical operators</a></li>
+      <li class="menu-item"><a href="?id=3">Example</a></li>
       </ol>
     </li>
-    <li class="menu-item"><a href="#0">Switch statement</a>
-       <ol class="sub-menu">
-        <li class="menu-item"><a href="#0">Break болон Continue</a></li>
-      </ol>      
-      </li>
+    <li class="menu-item"><a href="?id=1">ARRAYS AND POINTERS</a>
+      <ol class="sub-menu">
+      <li class="menu-item"><a href="?id=1">Arrays</a></li>
+      <li class="menu-item"><a href="?id=4">Using arrays in loops</a></li>
+      <li class="menu-item"><a href="?id=3">Pointers</a></li>
+      <li class="menu-item"><a href="?id=2">Dynamic Memory</a></li>
+      <li class="menu-item"><a href="?id=3">sizeof() Operaror</a></li>
+      <li class="menu-item"><a href="?id=3">Example</a></li>
+      </ol>
+    </li>
+    <li class="menu-item"><a href="?id=1">FUNCTIONS</a>
+      <ol class="sub-menu">
+      <li class="menu-item"><a href="?id=1">function introduction</a></li>
+      <li class="menu-item"><a href="?id=4">Parameters and Arguments</a></li>
+      <li class="menu-item"><a href="?id=2">lenght function</a></li>
+      <li class="menu-item"><a href="?id=3">sqrt function</a></li>
+      <li class="menu-item"><a href="?id=3">pow function</a></li>
+      <li class="menu-item"><a href="?id=3">min and max function</a></li>
+      <li class="menu-item"><a href="?id=3">Example</a></li>
+      </ol>
+    </li>
+    <li class="menu-item"><a href="?id=1">Үг тоолох дасгал</a>
+    <li class="menu-item"><a href="?id=1">Минутын зөрүү тооцоолох дасгал</a>
+    <li class="menu-item"><a href="?id=1">Дөрвөн тооны их багыг тооцоолох дасгал</a>
+    <li class="menu-item"><a href="?id=1">Анхны тоо тооцоолох дасгал</a>
   </ol>
 </nav>
 </div>
