@@ -22,6 +22,7 @@ session_start();
         while($row = $result->fetch_assoc()) {
             $link = $row['link'];
             $title = $row['title'];
+            $example = $row['example']
         }
     }
 ?>
@@ -48,62 +49,63 @@ session_start();
   <ol class='menu__content'>
     <li class="menu-item"><a href="#">BASIC CONCEPTS</a>
       <ol class="sub-menu">
-      <li class="menu-item"><a href="#">Syntax</a></li>
-      <li class="menu-item"><a href="#">Variable and Data type</a></li>
-      <li class="menu-item"><a href="#">auto keyword</a></li>
-      <li class="menu-item"><a href="#">Input Output</a></li>
-      <li class="menu-item"><a href="#">Operator and Operand</a></li>
-      <li class="menu-item"><a href="#">Operator Precedence</a></li>
-      <li class="menu-item"><a href="#">Assignment and Increment Operators</a></li>
-      <li class="menu-item"><a href="#">Example</a></li>
+      <li class="menu-item"><a href="?id=1">Syntax</a></li>
+      <li class="menu-item"><a href="?id=2">Variable and Data type</a></li>
+      <li class="menu-item"><a href="?id=3">auto keyword</a></li>
+      <li class="menu-item"><a href="?id=4">Input Output</a></li>
+      <li class="menu-item"><a href="?id=5">Operator and Operand</a></li>
+      <li class="menu-item"><a href="?id=6">Operator Precedence</a></li>
+      <li class="menu-item"><a href="?id=7">Assignment and Increment Operators</a></li>
+      <li class="menu-item"><a href="?id=8">Example</a></li>
       </ol>
     </li>
     <li class="menu-item"><a href="#">CONDITIONAL AND LOOPS</a>
       <ol class="sub-menu">
-      <li class="menu-item"><a href="#">if | else |  else if statement</a></li>
-      <li class="menu-item"><a href="#">While loop</a></li>
-      <li class="menu-item"><a href="#">For loop</a></li>
-      <li class="menu-item"><a href="#">Do while loop</a></li>
-      <li class="menu-item"><a href="#">Switch statement</a></li>
-      <li class="menu-item"><a href="#">Logical operators</a></li>
-      <li class="menu-item"><a href="#">Example</a></li>
+      <li class="menu-item"><a href="?id=9">if | else |  else if statement</a></li>
+      <li class="menu-item"><a href="?id=10">While loop</a></li>
+      <li class="menu-item"><a href="?id=11">For loop</a></li>
+      <li class="menu-item"><a href="?id=12">Do while loop</a></li>
+      <li class="menu-item"><a href="?id=13">Switch statement</a></li>
+      <li class="menu-item"><a href="?id=14">Logical operators</a></li>
+      <li class="menu-item"><a href="?id=15">Example</a></li>
       </ol>
     </li>
     <li class="menu-item"><a href="#">ARRAYS AND POINTERS</a>
       <ol class="sub-menu">
-      <li class="menu-item"><a href="#">Arrays</a></li>
-      <li class="menu-item"><a href="#">Using arrays in loops</a></li>
-      <li class="menu-item"><a href="#">Pointers</a></li>
-      <li class="menu-item"><a href="#">Dynamic Memory</a></li>
-      <li class="menu-item"><a href="#">sizeof() Operaror</a></li>
-      <li class="menu-item"><a href="#">Example</a></li>
+      <li class="menu-item"><a href="?id=16">Arrays</a></li>
+      <li class="menu-item"><a href="?id=17">Using arrays in loops</a></li>
+      <li class="menu-item"><a href="?id=18">Pointers</a></li>
+      <li class="menu-item"><a href="?id=19">Dynamic Memory</a></li>
+      <li class="menu-item"><a href="?id=20">sizeof() Operaror</a></li>
+      <li class="menu-item"><a href="?id=21">Example</a></li>
       </ol>
     </li>
     <li class="menu-item"><a href="#">FUNCTIONS</a>
       <ol class="sub-menu">
-      <li class="menu-item"><a href="#">function introduction</a></li>
-      <li class="menu-item"><a href="#">Parameters and Arguments</a></li>
-      <li class="menu-item"><a href="#">lenght function</a></li>
-      <li class="menu-item"><a href="#">sqrt function</a></li>
-      <li class="menu-item"><a href="#">pow function</a></li>
-      <li class="menu-item"><a href="#">min and max function</a></li>
-      <li class="menu-item"><a href="#">Example</a></li>
+      <li class="menu-item"><a href="?id=22">function introduction</a></li>
+      <li class="menu-item"><a href="?id=23">Parameters and Arguments</a></li>
+      <li class="menu-item"><a href="?id=24">lenght function</a></li>
+      <li class="menu-item"><a href="?id=25">sqrt function</a></li>
+      <li class="menu-item"><a href="?id=26">pow function</a></li>
+      <li class="menu-item"><a href="?id=27">min and max function</a></li>
+      <li class="menu-item"><a href="?id=28">Example</a></li>
       </ol>
     </li>
     <br>
     <li class="menu-item"><a href="#">Дасгалууд</a>
-    <li class="menu-item"><a href="#">Үг тоолох дасгал</a>
-    <li class="menu-item"><a href="#">Минутын зөрүү тооцоолох дасгал</a>
-    <li class="menu-item"><a href="#">Дөрвөн тооны их багыг тооцоолох дасгал</a>
-    <li class="menu-item"><a href="#">Анхны тоо тооцоолох дасгал</a>
+    <li class="menu-item"><a href="?id=29">Үг тоолох дасгал</a>
+    <li class="menu-item"><a href="?id=30">Минутын зөрүү тооцоолох дасгал</a>
+    <li class="menu-item"><a href="?id=31">Дөрвөн тооны их багыг тооцоолох дасгал</a>
+    <li class="menu-item"><a href="?id=32">Анхны тоо тооцоолох дасгал</a>
   </ol>
 </nav>
 </div>
 <div class="col-md-9">
     <h3 style="color:orange; text-align:center" ><?php echo($title);?></h3>
-<div style="padding:56.16% 0 0 0;position:relative;"><iframe src="<?php echo($link); ?>" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="syntax"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<div style="padding:56.16% 0 0 0;position:relative;"><iframe src="<?php echo($link); ?>" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="syntax"></iframe></div>
+<h3 style="color:blue; text-align:center" ><?php echo($example);?></h3>
+<script src="https://player.vimeo.com/api/player.js"></script>
 </div>
-
     <br>
     <br>
     <br>
