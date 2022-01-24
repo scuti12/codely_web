@@ -90,6 +90,7 @@ session_start();
       <li class="menu-item"><a href="?id=3">Example</a></li>
       </ol>
     </li>
+    <br>
     <li class="menu-item"><a href="?id=1">Дасгалууд</a>
     <li class="menu-item"><a href="?id=1">Үг тоолох дасгал</a>
     <li class="menu-item"><a href="?id=1">Минутын зөрүү тооцоолох дасгал</a>
