@@ -49,54 +49,56 @@ session_start();
   <ol class='menu__content'>
     <li class="menu-item"><a href="#">BASIC CONCEPTS</a>
       <ol class="sub-menu">
-      <li class="menu-item"><a href="?id=1">Syntax</a></li>
-      <li class="menu-item"><a href="?id=2">Variable and Data type</a></li>
-      <li class="menu-item"><a href="?id=3">auto keyword</a></li>
-      <li class="menu-item"><a href="?id=4">Input Output</a></li>
-      <li class="menu-item"><a href="?id=5">Operator and Operand</a></li>
-      <li class="menu-item"><a href="?id=6">Operator Precedence</a></li>
-      <li class="menu-item"><a href="?id=7">Assignment and Increment Operators</a></li>
-      <li class="menu-item"><a href="?id=8">Example</a></li>
+      <li class="menu-item"><a href="?id=5">Syntax</a></li>
+      <li class="menu-item"><a href="?id=6">Variable and Data type</a></li>
+      <li class="menu-item"><a href="?id=7">auto keyword</a></li>
+      <li class="menu-item"><a href="?id=8">Input Output</a></li>
+      <li class="menu-item"><a href="?id=9">Operator and Operand</a></li>
+      <li class="menu-item"><a href="?id=18">Operator Precedence</a></li>
+      <li class="menu-item"><a href="?id=10">Assignment and Increment Operators</a></li>
+      <li class="menu-item"><a href="?id=11">Example</a></li>
       </ol>
     </li>
     <li class="menu-item"><a href="#">CONDITIONAL AND LOOPS</a>
       <ol class="sub-menu">
-      <li class="menu-item"><a href="?id=9">if | else |  else if statement</a></li>
-      <li class="menu-item"><a href="?id=10">While loop</a></li>
-      <li class="menu-item"><a href="?id=11">For loop</a></li>
-      <li class="menu-item"><a href="?id=12">Do while loop</a></li>
-      <li class="menu-item"><a href="?id=13">Switch statement</a></li>
-      <li class="menu-item"><a href="?id=14">Logical operators</a></li>
-      <li class="menu-item"><a href="?id=15">Example</a></li>
+      <li class="menu-item"><a href="?id=12">if | else |  else if statement</a></li>
+      <li class="menu-item"><a href="?id=13">Short hand if</a></li>
+      <li class="menu-item"><a href="?id=14">While loop</a></li>
+      <li class="menu-item"><a href="?id=15">For loop</a></li>
+      <li class="menu-item"><a href="?id=16">Do while loop</a></li>
+      <li class="menu-item"><a href="?id=">Switch statement</a></li>
+      <li class="menu-item"><a href="?id=">Logical operators</a></li>
+      <li class="menu-item"><a href="?id=">Example</a></li>
       </ol>
     </li>
     <li class="menu-item"><a href="#">ARRAYS AND POINTERS</a>
       <ol class="sub-menu">
-      <li class="menu-item"><a href="?id=16">Arrays</a></li>
-      <li class="menu-item"><a href="?id=17">Using arrays in loops</a></li>
-      <li class="menu-item"><a href="?id=18">Pointers</a></li>
-      <li class="menu-item"><a href="?id=19">Dynamic Memory</a></li>
-      <li class="menu-item"><a href="?id=20">sizeof() Operaror</a></li>
-      <li class="menu-item"><a href="?id=21">Example</a></li>
+      <li class="menu-item"><a href="?id=">Arrays</a></li>
+      <li class="menu-item"><a href="?id=">Using arrays in loops</a></li>
+      <li class="menu-item"><a href="?id=">Pointers</a></li>
+      <li class="menu-item"><a href="?id=">Dynamic Memory</a></li>
+      <li class="menu-item"><a href="?id=">sizeof() Operaror</a></li>
+      <li class="menu-item"><a href="?id=">Example</a></li>
       </ol>
     </li>
     <li class="menu-item"><a href="#">FUNCTIONS</a>
       <ol class="sub-menu">
-      <li class="menu-item"><a href="?id=22">function introduction</a></li>
-      <li class="menu-item"><a href="?id=23">Parameters and Arguments</a></li>
-      <li class="menu-item"><a href="?id=24">lenght function</a></li>
-      <li class="menu-item"><a href="?id=25">sqrt function</a></li>
-      <li class="menu-item"><a href="?id=26">pow function</a></li>
-      <li class="menu-item"><a href="?id=27">min and max function</a></li>
-      <li class="menu-item"><a href="?id=28">Example</a></li>
+      <li class="menu-item"><a href="?id=">function introduction</a></li>
+      <li class="menu-item"><a href="?id=">Parameters and Arguments</a></li>
+      <li class="menu-item"><a href="?id=17">gets function</a></li>
+      <li class="menu-item"><a href="?id=">lenght function</a></li>
+      <li class="menu-item"><a href="?id=">sqrt function</a></li>
+      <li class="menu-item"><a href="?id=">pow function</a></li>
+      <li class="menu-item"><a href="?id=">min and max function</a></li>
+      <li class="menu-item"><a href="?id=">Example</a></li>
       </ol>
     </li>
     <br>
     <li class="menu-item"><a href="#">Дасгалууд</a>
-    <li class="menu-item"><a href="?id=29">Үг тоолох дасгал</a>
-    <li class="menu-item"><a href="?id=30">Минутын зөрүү тооцоолох дасгал</a>
-    <li class="menu-item"><a href="?id=31">Дөрвөн тооны их багыг тооцоолох дасгал</a>
-    <li class="menu-item"><a href="?id=32">Анхны тоо тооцоолох дасгал</a>
+    <li class="menu-item"><a href="?id=">Үг тоолох дасгал</a>
+    <li class="menu-item"><a href="?id=">Минутын зөрүү тооцоолох дасгал</a>
+    <li class="menu-item"><a href="?id=">Дөрвөн тооны их багыг тооцоолох дасгал</a>
+    <li class="menu-item"><a href="?id=">Анхны тоо тооцоолох дасгал</a>
   </ol>
 </nav>
 </div>
