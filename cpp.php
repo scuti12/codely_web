@@ -22,7 +22,6 @@ session_start();
         while($row = $result->fetch_assoc()) {
             $link = $row['link'];
             $title = $row['title'];
-            $example = $row['example']
         }
     }
 ?>
@@ -105,7 +104,6 @@ session_start();
 <div class="col-md-9">
     <h3 style="color:orange; text-align:center" ><?php echo($title);?></h3>
 <div style="padding:56.16% 0 0 0;position:relative;"><iframe src="<?php echo($link); ?>" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="syntax"></iframe></div>
-<h3 style="color:blue; text-align:center" ><?php echo($example);?></h3>
 <script src="https://player.vimeo.com/api/player.js"></script>
 </div>
     <br>
