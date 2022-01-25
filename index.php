@@ -144,7 +144,7 @@
               <h3>C++</h3>
               <p>Programming language</p>
             </figcaption>
-            <a href="./cpp.php"></a>
+            <a href="./cpp.php?id=5"></a>
           </figure>
         </div>
         <div class="col-md-4 col-sm-6 padleft-right">
