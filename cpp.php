@@ -54,7 +54,7 @@ session_start();
       <li class="menu-item"><a href="?id=8">Input Output</a></li>
       <li class="menu-item"><a href="?id=9">Operator and Operand</a></li>
       <li class="menu-item"><a href="?id=18">Operator Precedence</a></li>
-      <li class="menu-item"><a href="?id=10">Assignment and Increment Operators</a></li>
+      <li class="menu-item"><a href="?id=10">Assignment and Increment</a></li>
       <li class="menu-item"><a href="?id=11">Example</a></li>
       </ol>
     </li>
@@ -65,39 +65,38 @@ session_start();
       <li class="menu-item"><a href="?id=14">While loop</a></li>
       <li class="menu-item"><a href="?id=15">For loop</a></li>
       <li class="menu-item"><a href="?id=16">Do while loop</a></li>
-      <li class="menu-item"><a href="?id=">Switch statement</a></li>
-      <li class="menu-item"><a href="?id=">Logical operators</a></li>
-      <li class="menu-item"><a href="?id=">Example</a></li>
+      <li class="menu-item"><a href="?id=19">Switch statement</a></li>
+      <li class="menu-item"><a href="?id=20">Logical operators</a></li>
+      <li class="menu-item"><a href="?id=21">Example</a></li>
       </ol>
     </li>
     <li class="menu-item"><a href="#">ARRAYS AND POINTERS</a>
       <ol class="sub-menu">
-      <li class="menu-item"><a href="?id=">Arrays</a></li>
-      <li class="menu-item"><a href="?id=">Using arrays in loops</a></li>
-      <li class="menu-item"><a href="?id=">Pointers</a></li>
-      <li class="menu-item"><a href="?id=">Dynamic Memory</a></li>
-      <li class="menu-item"><a href="?id=">sizeof() Operaror</a></li>
-      <li class="menu-item"><a href="?id=">Example</a></li>
+      <li class="menu-item"><a href="?id=22">Arrays</a></li>
+      <li class="menu-item"><a href="?id=23">Using arrays in loops</a></li>
+      <li class="menu-item"><a href="?id=24">Pointers</a></li>
+      <li class="menu-item"><a href="?id=25">sizeof() Operaror</a></li>
+      <li class="menu-item"><a href="?id=26">Example</a></li>
       </ol>
     </li>
     <li class="menu-item"><a href="#">FUNCTIONS</a>
       <ol class="sub-menu">
-      <li class="menu-item"><a href="?id=">function introduction</a></li>
-      <li class="menu-item"><a href="?id=">Parameters and Arguments</a></li>
+      <li class="menu-item"><a href="?id=27">function introduction</a></li>
+      <li class="menu-item"><a href="?id=28">Parameters and Arguments</a></li>
       <li class="menu-item"><a href="?id=17">gets function</a></li>
-      <li class="menu-item"><a href="?id=">lenght function</a></li>
-      <li class="menu-item"><a href="?id=">sqrt function</a></li>
-      <li class="menu-item"><a href="?id=">pow function</a></li>
-      <li class="menu-item"><a href="?id=">min and max function</a></li>
-      <li class="menu-item"><a href="?id=">Example</a></li>
+      <li class="menu-item"><a href="?id=29">lenght function</a></li>
+      <li class="menu-item"><a href="?id=30">sqrt function</a></li>
+      <li class="menu-item"><a href="?id=32">pow function</a></li>
+      <li class="menu-item"><a href="?id=33">min and max function</a></li>
+      <li class="menu-item"><a href="?id=34">Example</a></li>
       </ol>
     </li>
     <br>
     <li class="menu-item"><a href="#">Дасгалууд</a>
-    <li class="menu-item"><a href="?id=">Үг тоолох дасгал</a>
-    <li class="menu-item"><a href="?id=">Минутын зөрүү тооцоолох дасгал</a>
-    <li class="menu-item"><a href="?id=">Дөрвөн тооны их багыг тооцоолох дасгал</a>
-    <li class="menu-item"><a href="?id=">Анхны тоо тооцоолох дасгал</a>
+    <li class="menu-item"><a href="?id=35">Үг тоолох дасгал</a>
+    <li class="menu-item"><a href="?id=36">Минутын зөрүү тооцоолох дасгал</a>
+    <li class="menu-item"><a href="?id=37">Дөрвөн тооны их багыг тооцоолох дасгал</a>
+    <li class="menu-item"><a href="?id=38">Анхны тоо тооцоолох дасгал</a>
   </ol>
 </nav>
 </div>
